@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script type="text/javascript" src="script.js"></script> 
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flight Trends in India's Most Populous Cities In 2022</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body onload=finalProject()>
+
+    <div class="header-container">
+        <h2> Flight Trends in India's Most Populous Cities In 2022 ✈️ </h2>
+    </div>
+
+    <h3> Introduction </h3>
+    Every year, millions of passengers take to the skies to travel between Indian cities. India is not only a hub for economic activity but also a country bustling with tourists in search of the next best travel destination. With valuable insights, not only can we optimize flight scheduling but we can also maximize our airline's profitability.
+
+    <div id="vis1">
+        <h3> Intraday Trends </h3>
+
+        Flight delays are something that plague millions of flights per year. To better accomodate our passengers, one important question we need to answer is:
+        <blockquote> 
+            <p><strong>When</strong>  do passengers choose to fly and land?</p>
+        </blockquote>
+
+        The following visualization depicts the total flight volume throughout the day in 2022. 
+
+        <br>
+        <br>
+
+        <div>
+            <div id="vis1_plot" class="center_plot"></div>
+        </div>
+
+        <br>
+
+        From the above visualization, we can observe that Indian airports were busiest during two times of the day: morning at around 7:00 AM - 9:00 AM and night time at around 7:00 PM - 9:00 PM. To mitigate flight delays, we should pay attention to the departure volume, and make it a priority to make flights available during these busy hours. 
+        
+        <br>
+        <br>
+
+        We can also observe that passengers commonly choose to depart from their place of origin during the daytime and arrive to their destination during the nighttime. The most probable inference we can make is that this is to have the evening and night hours to relax and rejuvenate before the start of activities on the following day. Other reasons may include to make efficient use of time to work on the plane, or to be able to transfer to connecting flights before night hours when flight operations are reduced. 
+    </div>
+
+    <div id="vis2">
+        <h3> Popular Routes </h3>
+
+        Now that we know when passengers fly, we should ask ourselves:
+        <blockquote> 
+            <p><strong>How</strong>  do passengers choose to get to their destinations?</p>
+        </blockquote>
+        
+        The following visualization depicts the flow of air traffic within India's most populous cities in 2022. 
+
+        <div>
+            <div id="vis2_plot" class="center_plot"></div>
+        </div>
+
+        <br>
+
+        As can be seen, air traffic is closely related to the population size of each city where the busiest routes are between <a href="https://a-z-animals.com/blog/discover-the-most-populated-cities-in-india/">the most populous cities</a>. Mumbai, Delhi, and Bangalore are to be considered the "hub" of air travel in India as a significant portion of routes were found between these three cities. Less populous cities such as Chennai and Kolkata, on the other hand, saw fewer flights coming through the city.
+
+        <br>
+        <br>
+
+        It is imperative that we effectively manage our flights to meet the demands of our customers. We must ensure that we are able maintain active flight operations between populous cities such as Mumbai, Delhi, and Bangalore to satisfy our customers, and maintain a good reputation for our airline.
+    </div>
+
+    <div id="vis3">
+        <h3> Popular Destinations </h3>
+
+        The above visualization was useful, but it tells us little about the cities that our passengers choose to go to. This is because routes may only be popular because they connect flights. In other words, we need to ask ourselves:
+        <blockquote> 
+            <p><strong>Where</strong>  do passengers choose to go to?</p>
+        </blockquote>
+        We will now exclusively look at non-stop flights to analyze destination volume. The following visualization depicts the most popular cities that our customers chose to go to in 2022.
+
+        <br>
+        <br>
+
+        <div>
+            <div id="vis3_plot" class="center_plot"></div>
+        </div>
+
+        <br>
+        Despite Mumbai having a larger population than Delhi, more passengers seem to be traveling to Delhi than Mumbai! It would interesting to investigate why this is the case. One possibility is Delhi has more tourist attractions or economic opportunities than Mumbai.
+
+        <br>
+        <br>
+
+        When looking at the cities on a map, we can also see that Bangalore and Chennai are in close proximity to each other. It is possible that our customers are having to choose between Bangalore or Chennai when traveling to the South of India. This decision fatigue could explain why Mumbai and Delhi are more popular destinations than Bangalore and Chennai.
+
+        <br>
+        <br>
+
+        It would be beneficial to investigate the reasons behind the preference of our customers to choose Delhi and Mumbai over other cities to travel to. Doing so can help us find ways to promote less popular cities such as Kolkata and Hyderadad as attractive travel destinations.
+
+        <H3> Conclusion </H3>
+
+        In this project, we were able to analyze three aspects of air travel in India, focusing on three key aspects: intraday trends, preferred routes, and popular destinations chosen by our passengers. By understanding these three trends, we can align our flight operations to match the preferences of our customers to enhance the customer experience, and maximize the popularity of our airline. 
+        
+        <br>
+        <br>
+
+        To investigate further, we should look at the same trends from past years to see if there has been any changes over time. We should also continue monitoring these trends to make changes to our current operations where necessary. 
+    </div>
+</body>
+</html>
